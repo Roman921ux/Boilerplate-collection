@@ -1,5 +1,5 @@
-import { SidebarProvider } from "@/components/ui/sidebar";
-import { AppSidebar } from "@/components/app-sidebar";
+import { SidebarProvider } from "@/Shared/components/ui/sidebar";
+import { AppSidebar } from "@/Shared/components/app-sidebar";
 import { Outlet } from "react-router-dom";
 import { Header } from "@/Shared/ui";
 
