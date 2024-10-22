@@ -1,17 +1,17 @@
-import { SidebarProvider, SidebarTrigger } from "@/components/ui/sidebar";
+import { SidebarProvider } from "@/components/ui/sidebar";
 import { AppSidebar } from "@/components/app-sidebar";
 import { Outlet } from "react-router-dom";
 import { Header } from "@/Shared/ui";
 
 export default function Layout() {
   return (
-    <SidebarProvider>
+    <SidebarProvider className="w-[100vw]">
       <AppSidebar />
-      <main>
+      <main className="w-[100%] h-[100vh] flex flex-col">
         <Header />
-        <SidebarTrigger />
-        <Outlet />
-        {/* {children} */}
+        <div className="flex items-center justify-center flex-1">
+          <Outlet />
+        </div>
       </main>
     </SidebarProvider>
   );

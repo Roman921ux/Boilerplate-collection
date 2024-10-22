@@ -6,7 +6,7 @@ import Layout from "./layouts/SideBarLayout";
 function App() {
   return (
     <Routes>
-      <Route path="/" element={<AppLayout />}>
+      <Route path="/" element={<Layout />}>
         <Route index element={<HomePage />} />
       </Route>
     </Routes>
