@@ -5,3 +5,4 @@
 3. React-Router-Dom
 4. axiosInstance
 - - -
+5. Gravity UI + tailwind
