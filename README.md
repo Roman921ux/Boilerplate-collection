@@ -6,3 +6,8 @@
 4. axiosInstance
 - - -
 5. Shadcn ui + tailwind (Shadcn компоненты нужно копировать вручную, чтобы сохранять архитектурные принципы)
+
+> В случае ошибки с vite.config
+```c
+npm install @vitejs/plugin-react --save-dev
+```
