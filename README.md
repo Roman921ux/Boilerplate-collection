@@ -6,4 +6,4 @@
 4. axiosInstance
 5. Shadcn ui + tailwind (Shadcn компоненты нужно копировать вручную, чтобы сохранять архитектурные принципы)
 - - -
-6. Base Design from Shadcn style
+6. Самая минималистичная версия, слева на всю высоту выдвигающийся Shadcn SideBar, слева Content с triggerButton в верхнем левом углу
