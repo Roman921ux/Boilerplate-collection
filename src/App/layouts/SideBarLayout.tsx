@@ -5,13 +5,20 @@ import { Header } from "@/Shared/ui";
 
 export default function Layout() {
   return (
-    <SidebarProvider>
+    <SidebarProvider
+      style={{
+        position: "relative",
+      }}
+    >
       <AppSidebar />
-      <main>
-        <Header />
+      <main className="p-2 w-[100%] flex gap-2">
         <SidebarTrigger />
-        <Outlet />
-        {/* {children} */}
+        <div
+          className="p-2 w-[100%] h-[95%] flex items-center justify-center"
+          // style={{ border: "1px solid red" }}
+        >
+          <Outlet />
+        </div>
       </main>
     </SidebarProvider>
   );
