@@ -1,13 +1,11 @@
 ### Template interface
-> В этом репозитории лежит базовый шаблон для моих проектов,
-> собранный по кусочкам дизайн многих страниц, а именно:
+> В этом репозитории лежат базовые шаблоны для проектов на React,
+> собранный из базовых инструментов React + React-router-dom + FSD и дизайна:
 - - -
-**Страницы**
-1. Домашняя страница
-2. Личный кабинет
-3. Login and Register
+**Ветки и их содержимое**
+1. developTemplateV1 
+2. ЛdevelopTemplateV2
+=> ShadcnUI + Tailwind
+4. developTemplateV3
+  - Gravity UI + Tailwind
 
-**Технологии**
-1. Vite + React + TypeScript
-2. Shadcn UI + tailwind
-3. FSD архитектура
