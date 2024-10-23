@@ -1,8 +1,5 @@
-import { Outlet } from "react-router-dom";
-import { Header, SideBar } from "../../Shared/ui";
-import MainLayout from "./MainLayout";
-import { BreadcrumbWithCustomSeparator } from "@/Shared/ui/NavigationStoryPanel";
-import Layout from "./SideBarLayout";
+import { Header } from "../../Shared/ui";
+import MainContentLayout from "./MainContentLayout";
 
 export default function AppLayout() {
   return (
@@ -15,16 +12,7 @@ export default function AppLayout() {
       }}
     >
       <Header />
-      <Layout />
-      {/* <MainLayout>
-        <SideBar />
-        <div className="flex flex-col w-[100%]">
-          <BreadcrumbWithCustomSeparator />
-          <div className="flex items-center justify-center h-[100%]">
-            <Outlet />
-          </div>
-        </div>
-      </MainLayout> */}
+      <MainContentLayout />
     </div>
   );
 }
