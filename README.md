@@ -8,4 +8,4 @@
 
 ---
 
-6. Дизайн состоит из Header, SideBar(статичный), MainContent с NavigationStory panel
+6. Дизайн состоит из Header на всю ширину экрана, SideBar(статичный) без triggerButton, MainContent с NavigationStory panel сверху
